@@ -1,4 +1,5 @@
-*, *::after, *::before{
+ 
+ *, *::after, *::before{
     margin: 0;
     padding: 0;
 }
@@ -12,15 +13,17 @@ body {
     background: linear-gradient(
         90deg,
         rgba(255, 132, 100, 1) 0%,
-        rgba(253, 105, 165,) 100%
+        rgba(253, 105, 165, 1) 100%
     );
  }
+
  .container {
     display: flex;
-    align-items: center;
+    place-items: center;
     justify-content: center;
     height: 100%;
  }
+ 
  .card-body {
     background-color: #fff;
     padding: 25px;
